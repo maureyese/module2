@@ -86,12 +86,15 @@ for compound in unique_codes:
             else:
                 print(f"No SMILES found for PubChem ID {pubchem_id}.")
                 smiles = None
+                count += 1
         except:
             print(f"No SMILES found for PubChem ID {pubchem_id}.")
             smiles = None
+            count += 1
     else:
         print(f"PubChem ID not found for: {compound}.")
         smiles = None
+        count += 1
 
     # Create a provisional DataFrame and concatenate
     prov_df = pd.DataFrame({'code': [compound], 'smiles': [smiles]})
