@@ -7366,7 +7366,7 @@ C09532	Polhovolide
 C09533	Provincialin
 C09534	Pseudoivalin
 C09535	Pycnolide
-C09536	Pyrethrosin
+C09536	Pyrethrosinf
 C09537	Quadrone
 C09538	Qing Hau Sau; Artemisinin
 C09539	Radiatin
